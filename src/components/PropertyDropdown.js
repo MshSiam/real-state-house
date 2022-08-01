@@ -6,7 +6,7 @@ import { HouseContext } from "./HouseContext"
 const PropertyDropDown = () => {
   const { property, setProperty, properties } = useContext(HouseContext)
   // console.log(country)
-  console.log(properties)
+  // console.log(properties)
   const [isOpen, setIsOpen] = useState(false)
 
   return (
